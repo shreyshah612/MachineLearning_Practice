@@ -1,7 +1,7 @@
 # MachineLearning_Practice
 This repository contains ML models from low to highly complex models
 
-# StudentGrade_Linear_model #
+## StudentGrade_Linear_model ##
 Attribute Information:
 1 school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
 2 sex - student's sex (binary: 'F' - female or 'M' - male)
@@ -33,10 +33,8 @@ Attribute Information:
 28 Walc - weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
 29 health - current health status (numeric: from 1 - very bad to 5 - very good)
 30 absences - number of school absences (numeric: from 0 to 93)
-
-# these grades are related with the course subject, Math or Portuguese:
+these grades are related with the course subject, Math or Portuguese:
 31 G1 - first period grade (numeric: from 0 to 20)
 31 G2 - second period grade (numeric: from 0 to 20)
 32 G3 - final grade (numeric: from 0 to 20, output target)
-
 < Model was created to predict G3 based on 5 attributes - studytime,failures,absences,G1,G2 >
